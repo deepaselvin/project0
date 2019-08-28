@@ -28,9 +28,14 @@ public class LoginBank {
 			// System.out.println("no of rows inserted:"+ rows);
 
 			
-			Connection con1 = Bankaccount_db.getconnection();
+			Connection con1 = accountBank.getconnection();
 			ShowMethod sh=new ShowMethod();
 			sh.show();
+			
+		}
+		else
+		{
+			System.out.println("Invalid Username or Password");
 			
 		}
 			// System.out.println("MAIN MENU" + "\n" + "1.DEPOSIT" + "\n" + "2.WITHDRAW" +
@@ -38,10 +43,7 @@ public class LoginBank {
 			// + "4.VIEW BALANCE" + "\n" + "5.TRANSACTION HISTORY" + "\n" + "6.ACTIVATE
 			// DEACTIVATE ACCOUNT");
 			
-			else 
-			{
-				System.out.println("Invalid username or password");
-					}
+			
 
 }
 }

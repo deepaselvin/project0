@@ -24,7 +24,7 @@ public class Beginmethod {
 	case 2: 
 		System.out.println("ENTERING INTO ACCOUNT...");
 		log.login();
-		begin();
+	
 		break;
 
 	}

@@ -13,7 +13,7 @@ public class accountBank {
 	}
 
 	public static Connection getconnection() {
-		String driverClassName = "com.mysql.jdbc.Driver";// SPELLING MISTAKE OR URL NOT FOUND :: CLASSNOTFOUNDEXCEPTION
+		String driverClassName = "com.mysql.jdbc.Driver";
 		String url = "jdbc:mysql://localhost:3306/bank_db";
 		String username = "root";
 		String password = "root";

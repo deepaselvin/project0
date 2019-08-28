@@ -24,13 +24,6 @@ public class Deposit {
 	}
 	
 	return balance;
-		/*
-		 * int totalBalance=balance+Deposit;
-		 * 
-		 * String sql = "update account_details set Balance=? where Account_no=?";
-		 * PreparedStatement pst1= con.prepareStatement(sql);
-		 * pst1.setInt(1,totalBalance); pst1.setInt(2,accountNumber);
-		 * pst1.executeUpdate();
-		 */
+		
 }
 }

@@ -27,7 +27,7 @@ public class Register {
  	long phone_no = scanner11.nextLong();
  	System.out.println("enter Intial balance:");
  	int Balance = scanner11.nextInt();
- 	//System.out.println("enter Name:"+b1 +" \n "+"enter age"+b2 +" \n "+"enter Phn No:"+b3 +" \n " +"enter aadhar No:"+b4);
+ 	
  	System.out.println("Registered sucessfully");
  	
  	

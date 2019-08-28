@@ -21,7 +21,6 @@ public class ShowMethod {
 				System.out.println("View Balance");
 
 				 ViewBalance.accinfo();
-				//System.out.println(bal);
 				show();
 				break;
 				
@@ -37,8 +36,6 @@ public class ShowMethod {
 				Deposit depo = new Deposit();
 				int bal0=depo.depinfo(accountNumber);
 				System.out.println(bal0);
-				//DepositUpdate depo1=new DepositUpdate();
-				//depo1.depinfo(accountNumber);
 			
 
 				int totalBalance = bal0 + Deposit;
@@ -70,8 +67,7 @@ public class ShowMethod {
 				
 				Deposit depo1 = new Deposit();
 				int balance1=depo1.depinfo(accountNumber1);
-				//withdrawinfo with = new withdrawinfo();
-				//with.withdraweninfo(accountNumber1);
+				
 			
 				
 
@@ -90,9 +86,9 @@ public class ShowMethod {
 			case 4:
 				System.out.println("Fund Transfer");
 				Scanner scn2 = new Scanner(System.in);
-				System.out.println("Enter the From Account Number");
-				int fromacc = scn2.nextInt();
 				System.out.println("Enter the To Account Number");
+				int fromacc = scn2.nextInt();
+				System.out.println("Enter the From Account Number");
 				int accountNumber2 = scn2.nextInt();
 				System.out.println("Enter the  Amount  to be transffered:");
 				int tramt = scn2.nextInt();
